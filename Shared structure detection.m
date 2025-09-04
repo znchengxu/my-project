@@ -2,7 +2,7 @@ clear
 clc
 tic
 % load data
-load('C:\Users\lab\Desktop\稀疏建模\Benchmark_EEG_small\Benchmark_EEG_small.mat')
+load('C:\Users\lab\Desktop\脧隆脢猫陆篓脛拢\Benchmark_EEG_small\Benchmark_EEG_small.mat')
 U=data.u;
 Y=data.y;  
 
@@ -140,7 +140,7 @@ for i=1:size(zhongqun,1)
 %             if rand(1)>yuzhi(bu)
 %                 zhongqun(i,bu)=1;
 %             end
-%             if length(find(zhongqun(i,:)==1))==15%指向性
+%             if length(find(zhongqun(i,:)==1))==15%脰赂脧貌脨脭
 %                 k=1;
 %             end
 %         end    
@@ -410,4 +410,5 @@ for zu=1:10
 end
 sum(akk)
 sum(MSE)
+
 toc
